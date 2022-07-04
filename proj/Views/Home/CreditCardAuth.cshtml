@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+    <link href="../../Content/style.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form">
+                <input type="text" placeholder="LoginId" id="txtLoginId" value="admin" />
+                <input type="text" placeholder="Name on card" id="txtCardName" value="Max" />
+                <input type="number" placeholder="Card number" id="txtCardNum" value="1234" />
+                <input type="date" placeholder="Expiration date" id="txtCardExp" value="2023-05-11" />
+                <input type="number" placeholder="CVV" id="txtCardCVV" value="456" />
+                <input type="number" placeholder="Donation amount" id="txtDonationAmt" value="30" />
+                <button onclick="GetPmt()">Confirm Payment</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../../Scripts/PageScripts/index.js"></script>
+    <script>sessionEval();</script>
+</body>
+</html>
